@@ -1,0 +1,74 @@
+#main {
+  padding: 50px 0;
+}
+
+.card {
+  width: 1140px;
+  height: 450px;
+
+  background: #265cf8;
+  border-radius: 32px;
+  display: flex;
+  position: relative;
+}
+
+.left {
+  width: 353px;
+  padding-top: 144px;
+  padding-left: 56px;
+}
+
+.card__title {
+  font-weight: 600;
+  font-size: 32px;
+  letter-spacing: 0.02em;
+  color: #ffffff;
+  margin-bottom: 16px;
+}
+
+.card__addres {
+  font-weight: 500;
+  font-size: 18px;
+  letter-spacing: 0.02em;
+  color: #ffffff;
+  margin-bottom: 12px;
+}
+
+.card__grafik {
+  font-weight: 500;
+  font-size: 16px;
+  color: #ffffff;
+  opacity: 0.6;
+  margin-bottom: 12px;
+}
+
+.whatsapp {
+  display: flex;
+  align-items: center;
+  width: 206px;
+
+  font-weight: 500;
+  font-size: 16px;
+  color: #ffffff;
+  border: 2px solid #7d9dfb;
+  border-radius: 30px;
+  padding: 6px 9px;
+}
+
+.whatsappIcon {
+  background: #62df3f;
+  padding: 5px 5px 6.11px 6.8px;
+  border-radius: 50%;
+  font-size: 28px;
+  color: #265cf8;
+  margin-right: 8px;
+}
+
+.right {
+  padding-left: 40%;
+}
+
+.img {
+  position: absolute;
+  top: -64px;
+}

@@ -1,0 +1,47 @@
+
+.mission {
+    margin-top: 8px;
+    width: 100%;
+    height: 391px;
+  
+    background: rgba(246, 246, 246, 0.76);
+    border-radius: 32px;
+    display: flex;
+    justify-content: space-around;
+  }
+  
+  .missionLeft {
+    width: 135px;
+  }
+  
+  .missionLeft h1 {
+    margin-top: 64px;
+    margin-bottom: 142px;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 140%;
+    letter-spacing: 0.02em;
+    color: #060606;
+  }
+  
+  .missionRight {
+    width: 521px;
+  }
+  
+  .missionRight h2 {
+    margin-top: 52px;
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 110%;
+  
+    color: #060606;
+  }
+  
+  .missionRight p {
+    margin-top: 32px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 140%;
+    color: #060606;
+  }
+  
