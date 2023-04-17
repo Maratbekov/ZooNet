@@ -66,3 +66,24 @@
 .social a {
   font-size: 20px;
 }
+
+
+@media (max-width: 768px){
+  .footer{
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .socials{
+    margin-top: 30px;
+  }
+}
+
+@media (max-width: 320px){
+    .footer{
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+    }
+  
+}

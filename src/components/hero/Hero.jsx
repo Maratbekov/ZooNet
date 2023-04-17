@@ -9,39 +9,29 @@ const Hero = () => {
     <section id={style.hero}>
       <div className="container">
         <div className={style.hero}>
-          <nav className={
-             nav ? [style.navbar, style.active].join(' ') : [style.navbar]
-          }>
-            <ul
-              className={style.menu}
-            >
+          <nav
+            className={
+              nav ? [style.navbar, style.active].join(' ') : [style.navbar]
+            }
+          >
+            <ul className={style.menu}>
               <li>
-                <NavLink to="katalog">Каталог</NavLink>
+                <NavLink to="/katalog">Каталог</NavLink>
               </li>
               <li>
-                {' '}
-                <NavLink
-                  to="hostel"
-                  className="ab"
-                >
-                  Хостелы/приюты
-                </NavLink>
+                <NavLink to="/hostel">Хостелы/приюты</NavLink>
               </li>
               <li>
-                {' '}
-                <NavLink to="kliniki">Вет клиники</NavLink>
+                <NavLink to="/kliniki">Вет клиники</NavLink>
               </li>
               <li>
-                {' '}
-                <NavLink to="veterinary">Ветеринары</NavLink>
+                <NavLink to="/veterinary">Ветеринары</NavLink>
               </li>
               <li>
-                {' '}
-                <NavLink to="zooMagazin">Зоомагазины</NavLink>
+                <NavLink to="/zooMagazin">Зоомагазины</NavLink>
               </li>
               <li>
-                {' '}
-                <NavLink to="zoonani">Зооняни</NavLink>
+                <NavLink to="/zoonani">Зооняни</NavLink>
               </li>
             </ul>
 
@@ -52,7 +42,7 @@ const Hero = () => {
             onClick={() => setNav(!nav)}
             className={style.mobile_btn}
           >
-            {nav ? <AiOutlineClose size={25} /> : <AiOutlineMenu size={25} />}
+            {nav ? <AiOutlineClose size={30} /> : <AiOutlineMenu size={30} />}
           </div>
         </div>
       </div>

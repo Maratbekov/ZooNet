@@ -66,6 +66,8 @@
     top: -6px;
     cursor: pointer;
     z-index: 10;
+    color: rgba(43, 63, 108, 1);
+    
   }
 
   .navbar {
@@ -100,10 +102,11 @@
   }
 
   .menu li a {
-    font-size: 18px;
+    font-size: 20px;
   }
 
   .addBtn{
+    margin-top: 10px;
     font-size: 13px;
     padding: 12px;
   }
